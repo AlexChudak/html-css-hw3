@@ -1,0 +1,67 @@
+
+/* CSS Portfolio */
+/* Радиокнопки */
+.filters-button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    
+    letter-spacing: 0.03em;
+    text-align: center;
+    
+}
+
+.filters-button:hover,
+.filters-button:focus {
+    color:white;
+    background-color: var(--accent-color);
+
+}
+
+/* Примеры работ */
+.works{
+/* сделал фон, чтобы видеть формат текста */
+background-color: lawngreen;
+}
+
+.works .links {
+    text-decoration: none;
+    
+}
+
+.links-title {
+    color: #212121;
+  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+
+    letter-spacing: 0.06em;
+}
+
+.links-text {
+    color: #FFFFFF;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.56;
+    /* or 156% */
+
+}
+   
+.links-product {
+    color: var(--secondary-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 187% */
+
+}
+    
