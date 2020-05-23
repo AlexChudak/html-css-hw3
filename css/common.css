@@ -47,7 +47,11 @@ ul {
   outline: 2px solid mediumaquamarine;
 }
 
-
+.main-nav {
+  display:flex;
+  align-items: center;
+  background-color: mediumblue;
+}
 
 /* logo */
 .logo {
@@ -63,8 +67,37 @@ ul {
 }
 
 /* site-nav */
+.site-nav {
+  display: flex ;
+  
+}
+
+.site-nav .item {
+  margin-right: 50px;
+}
+/* последнему ребенку 0px */
+.site-nav .item:last-child {
+  margin-right: 0px;
+}
+
+/* 
+.site-nav .item + .item {
+  margin-right: 50px;
+  соседу
+} 
+
+.site-nav .item:not(:last child) {
+ margin-right: 50px
+ одной строкой, даем и исключаем последнего
+}
+
+*/
+
+
+
 
 .site-nav .link {
+  display: block;
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -73,6 +106,9 @@ ul {
   letter-spacing: 0.02em;
 
   text-decoration: none;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-nav .link:hover,
@@ -82,17 +118,33 @@ ul {
 
 /* чтобы подсечивалась ссылка */
 .site-nav .link-current {
+  display: block;
   color: var(--accent-color);
   font-size: 14px;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* auth-nav */
+
+.auth-nav {
+  display: flex ;
+  
+}
+
+.auth-nav .item + .item {
+  margin-left: 30px;
+}
 
 .auth-nav .link {
   color: var(--secondary-text-color);
   font-size: 14px;
 
   text-decoration: none;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .auth-nav .link:hover,
