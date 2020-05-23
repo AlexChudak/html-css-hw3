@@ -4,10 +4,13 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   
+  
 }
 /* убираем точки в списке во всем файле */
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* CSS переменные, применяем кл всем доку */
@@ -33,6 +36,17 @@ ul {
 /* Лого шрифт font-family: Raleway; */
 
 /* font-family: inherit;  - чтобы  кнопки унаследовали основные свойства */
+
+/* Header */
+
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid mediumaquamarine;
+}
+
 
 
 /* logo */
@@ -87,6 +101,11 @@ ul {
 }
 
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 
 
 /* button */
@@ -101,6 +120,14 @@ ul {
   letter-spacing: 0.06em;
 
   text-decoration: none;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  padding: 10px 32px; 
+  width: 200px;
+  height: 50px;
+  text-align: center;
 }
 
 /* футер */
@@ -111,8 +138,12 @@ footer {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
+
+    padding-top: 48px;
+    padding-bottom: 21px;
   }
-  .logo-footer {
+
+.logo-footer {
     color: white;
 
     font-family: raleway, sans-serif;
@@ -123,14 +154,16 @@ footer {
 
     text-decoration: none;
   }
+
   /* address */
-  .address {
+ .address {
     
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
   
   }
+
   .adress-link {
     color: rgba(255, 255, 255, 0.6);
 

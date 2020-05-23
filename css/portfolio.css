@@ -1,6 +1,11 @@
 
 /* CSS Portfolio */
 /* Радиокнопки */
+
+.filters {
+    margin-bottom: 50px;
+}
+
 .filters-button {
     font-family: Roboto;
     font-style: normal;
@@ -10,6 +15,9 @@
     
     letter-spacing: 0.03em;
     text-align: center;
+
+    border-radius: 4px;
+    padding: 6px 22px;
     
 }
 
@@ -19,6 +27,7 @@
     background-color: var(--accent-color);
 
 }
+
 
 /* Примеры работ */
 .works{
