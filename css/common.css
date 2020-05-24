@@ -11,6 +11,7 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  
 }
 
 /* CSS переменные, применяем кл всем доку */
@@ -40,7 +41,7 @@ ul {
 /* Header */
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -50,7 +51,9 @@ ul {
 .main-nav {
   display:flex;
   align-items: center;
-  background-color: mediumblue;
+  
+
+  justify-content: space-between;
 }
 
 /* logo */
@@ -69,6 +72,7 @@ ul {
 /* site-nav */
 .site-nav {
   display: flex ;
+  margin-left: 85px;
   
 }
 
@@ -130,6 +134,7 @@ ul {
 
 .auth-nav {
   display: flex ;
+  margin-left: auto;
   
 }
 
@@ -183,6 +188,9 @@ ul {
 }
 
 /* футер */
+
+
+
 footer {
     background-color: #2f303a;
     color: white;
@@ -191,10 +199,16 @@ footer {
     font-size: 14px;
     line-height: 1.14;
 
-    padding-top: 48px;
-    padding-bottom: 21px;
+    
   }
 
+.footer-ul {
+  padding-top: 48px;
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
 .logo-footer {
     color: white;
 
@@ -224,8 +238,13 @@ footer {
   }
   
   .madeby {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 21px;
+    padding-top: 18px;
     color: rgba(255, 255, 255, 0.6);
-  
+    margin: 0;
+    
+
     font-weight: 500;
     font-size: 12px;
     line-height: 2;
